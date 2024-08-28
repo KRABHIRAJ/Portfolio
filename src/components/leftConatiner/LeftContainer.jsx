@@ -1,4 +1,4 @@
-import {Menu} from "../index"
+import {Menu, SocialLinks} from "../index"
 
 const LeftContainer = () => {
   return (
@@ -7,6 +7,7 @@ const LeftContainer = () => {
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">Software Engineer</h2>
         <p className="mt-4 max-w-xs leading-normal">I build pixel-perfect, engaging, and accessible digital experiences.</p>
         <Menu />
+        <SocialLinks />
     </div>
   )
 }
