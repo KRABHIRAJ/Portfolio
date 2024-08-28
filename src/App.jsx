@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { MainContainer } from './components';
 
 const GradientBackground = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -22,7 +23,7 @@ const GradientBackground = () => {
         background: `radial-gradient(circle at ${position.x}px ${position.y}px, rgba(31, 41, 55, 0.9), rgba(15, 23, 42, 0) 60%)`,
       }}
     >
-      {/* Your content goes here */}
+      <MainContainer />
     </div>
   );
 };
