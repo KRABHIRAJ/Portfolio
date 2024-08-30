@@ -4,7 +4,7 @@ const SocialLink = ({icon, link}) => {
         window.open(link, '_blank');
     }
   return (
-    <div onClick={handleLinkClick} className="bg-slate-500 p-1 w-fit rounded-lg cursor-pointer" >
+    <div onClick={handleLinkClick} className="bg-slate-500 hover:bg-slate-200 transition-all p-1 w-fit rounded-lg cursor-pointer" >
         <img src={icon} alt={'Logo'} height={20} width={20}/>
     </div>
   )

@@ -4,9 +4,15 @@ import MenuItem from "./leftConatiner/menu/MenuItem";
 import SocialLink from "./leftConatiner/social/SocialLink";
 import SocialLinks from "./leftConatiner/social/SocialLinks";
 import MainContainer from "./mainContainer/MainContainer";
+import About from "./rightContainer/about/About";
+import Experience from "./rightContainer/experience/Experience";
+import Projects from "./rightContainer/projects/Projects";
 import RightContainer from "./rightContainer/RightContainer";
 
 export {
+    Projects,
+    Experience,
+    About,
     SocialLink,
     SocialLinks,
     Menu,
