@@ -1,3 +1,4 @@
+import TechCard from "./common/TechCard";
 import LeftContainer from "./leftConatiner/LeftContainer";
 import Menu from "./leftConatiner/menu/Menu";
 import MenuItem from "./leftConatiner/menu/MenuItem";
@@ -10,6 +11,7 @@ import Projects from "./rightContainer/projects/Projects";
 import RightContainer from "./rightContainer/RightContainer";
 
 export {
+    TechCard,
     Projects,
     Experience,
     About,
