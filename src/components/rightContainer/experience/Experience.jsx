@@ -1,17 +1,24 @@
-import { CurrentDescription, TechStack } from "../../../utils/constants";
-import ExperienceCard from "./ExperienceCard";
+ 
+import {
+  experienceDetail,
+} from "../../../utils/constants";
+import {Card} from "../../index";
 
-/* eslint-disable react/no-unescaped-entities */
 const Experience = () => {
   return (
-    <div>
-      <ExperienceCard
-        date={"Oct 2023 - Present"}
-        company={"Vince"}
-        position={"Software Engineer"}
-        description={CurrentDescription}
-        techstack={TechStack}
-      />
+    <div className="mb-20 h-screen">
+      {experienceDetail?.map((experience) => {
+        return (
+          <Card
+            key={experience.position}
+            leftDesc={experience.duration}
+            title={`${experience.position} . ${experience.company}`}
+            description={experience.description}
+            techstack={experience.techStack}
+            isExperienceCard={true}
+          />
+        );
+      })}
     </div>
   );
 };
