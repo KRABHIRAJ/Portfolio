@@ -6,7 +6,7 @@ const Projects = () => {
     window.open(githubUrl, "_blank");
   };
   return (
-    <div>
+    <div id="project">
       {projectDetail?.map((project) => {
         return (
           <div
