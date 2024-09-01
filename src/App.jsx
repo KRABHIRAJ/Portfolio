@@ -6,7 +6,7 @@ const GradientBackground = () => {
 
   useEffect(() => {
     const handleMouseMove = (e) => {
-      setPosition({ x: e.clientX, y: e.clientY });
+      setPosition({ x: e.pageX, y: e.pageY });
     };
 
     window.addEventListener('mousemove', handleMouseMove);
