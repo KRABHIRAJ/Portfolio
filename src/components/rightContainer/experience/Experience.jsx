@@ -6,7 +6,7 @@ import {Card} from "../../index";
 
 const Experience = () => {
   return (
-    <div id="experience" className="mb-20 h-screen">
+    <div id="experience" className="mb-20 lg:h-screen">
       {experienceDetail?.map((experience) => {
         return (
           <Card

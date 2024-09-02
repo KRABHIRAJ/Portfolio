@@ -1,10 +1,15 @@
-import { About, Experience, Projects } from "../index"
+import { About, Experience, Heading, Projects } from "../index"
 
 const RightContainer = () => {
   return (
-    <div className="pt-32">
+    <div className="lg:pt-32 pt-10">
+      <Heading title={'ABOUT'} />
       <About />
+
+      <Heading title={'Experience'} />
       <Experience />
+      
+      <Heading title={'Projects'} />
       <Projects />
     </div>
   )
