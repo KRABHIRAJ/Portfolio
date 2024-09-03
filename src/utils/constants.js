@@ -27,7 +27,7 @@ export const projectDetail = [
         title: 'ConfirmTkt clone',
         githubUrl:'https://github.com/KRABHIRAJ/Train-Ticket-Booking-App',
         deployedUrl: 'https://confirmtkt.netlify.app',
-        description: "I developed a food ordering web app that displays a list of restaurants, enables users to view menus, add items to a cart, and view them on the cart page. The app fetches real-time data from Swiggy's live API, uses Redux for the shopping cart, incorporates react-skeleton for shimmer effects during loading, employs lazy loading and code splitting for performance, and handles CORS issues with a Cloudflare Workers proxy",
+        description: "Created a web app for train ticket booking, enabling users to search for trains by date, check seat availability for the next 6 days across all classes, and view seat confirmation predictions.",
         techStack: ["React", "Redux", "Javascript", "HTML", "CSS", "Cloudflare"],
         imageUrl: confirmtkt
     },
@@ -43,7 +43,7 @@ export const projectDetail = [
         title: 'Ripale: A netflix clone',
         githubUrl:'https://github.com/KRABHIRAJ/The-movie-app',
         deployedUrl: 'https://natefleex.netlify.app/',
-        description: "I developed a food ordering web app that displays a list of restaurants, enables users to view menus, add items to a cart, and view them on the cart page. The app fetches real-time data from Swiggy's live API, uses Redux for the shopping cart, incorporates react-skeleton for shimmer effects during loading, employs lazy loading and code splitting for performance, and handles CORS issues with a Cloudflare Workers proxy",
+        description: "Created a web app for listing the latest movies and TV shows, enabling users to search for any title. Integrated multi-factor authentication (MFA) using Appwrite and utilized the TMDB API to retrieve all relevant data.",
         techStack: ["React", "Redux", "Javascript", "HTML", "CSS", "Appwrite"],
         imageUrl: netflix
     },

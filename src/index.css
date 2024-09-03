@@ -20,3 +20,12 @@ body{
       scrollbar-width: none;  /* Firefox */
 }
 }
+
+
+.active > div > p {
+  color: #e2e8f0;
+}
+.active > div > div {
+  background-color: #e2e8f0;
+  width: 64px;
+}
