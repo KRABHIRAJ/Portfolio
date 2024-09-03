@@ -1,18 +1,27 @@
-import { About, Experience, Heading, Projects } from "../index"
+import { About, Experience, Heading, Projects } from "../index";
 
 const RightContainer = () => {
+  
   return (
-    <div className="lg:pt-32 pt-10">
-      <Heading title={'ABOUT'} />
-      <About />
+    <div>
+      <div className="lg:pt-32 pt-10">
+        <section id="about">
+          <Heading title={"ABOUT"} />
+          <About />
+        </section>
 
-      <Heading title={'Experience'} />
-      <Experience />
-      
-      <Heading title={'Projects'} />
-      <Projects />
+        <section id="experience">
+          <Heading title={"Experience"} />
+          <Experience />
+        </section>
+
+        <section id="project">
+          <Heading title={"Projects"} />
+          <Projects />
+        </section>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default RightContainer
+export default RightContainer;

@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 const About = () => {
   return (
-    <div id="about" className="text-[17px] lg:h-screen">
+    <div className="text-[17px] lg:h-screen">
       <p className="mt-[6px]">
         I am an enthusiastic and passionate web developer. Over the past 1.8 years,
         I've immersed myself in the world of web and app development, tackling
